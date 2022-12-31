@@ -16,7 +16,7 @@ header{
 
 nav{
     height: 67px;
-    background-color: rgb(41, 39, 39);
+    background-color: rgba(24, 22, 22, 0.925);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -56,10 +56,11 @@ nav ul li a:hover{
 }
 
 .home{
+    height: 500px;
     width: 100%;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.884);
     display: flex;
+    background-image: linear-gradient(90deg, rgb(8, 4, 67), rgba(1, 8, 24, 0.98));
     padding: 8%;
     justify-content: space-between;
     background-attachment: fixed;
@@ -117,6 +118,10 @@ h3{
     background-color:  rgba(217, 255, 0, 0.836);
         transform: scale(1.5);
 }
+.Services{
+    height: 100vh;
+    background-color: #16212E;
+}
 
 .titre1{
     font-size: 30px;
@@ -145,15 +150,17 @@ h3{
     margin: 15px;
     box-shadow: 0 5px 25px rgb(68, 67, 65);
     transition: all 0.4s;
+    background-color: #16212E;
 }
 .carteicon{
     font-size: 50px;
     display: flex;
     align-content: center;
     justify-content: center;
+    color: blue;
 
 }
-.carteinfo h2{ color: black;
+.carteinfo h2{ color: white;
     font-size: 27px;
     font-weight: 700;
     display: flex;
@@ -165,14 +172,16 @@ h3{
 .carteinfo p{
     font-size:20px ;
     font-weight: 400;
-    color: black;
+    color: white;
 }
 .carte:hover{
+        color: rgb(175, 224, 38);
     transform: scale(1.1);
-    color:rgb(182, 201, 16);
         box-shadow: 0 5px 50px rgba(115, 121, 136, 0.562);
-        background-color: rgba(96, 138, 185, 0.61);
+        background-color: #556C88;
+        text-decoration: double;
 }
+
 footer{
     background-color: rgba(31, 29, 29, 0.596);
     color: azure;
@@ -196,4 +205,38 @@ footer{
  .socialefooter a:hover{
     transform: scale(1.5);
         color: rgba(217, 255, 0, 0.836);
+ }
+ .abtitre{
+    color: blue;
+    font-weight: 900;
+    font-size: 34px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+
+ }
+ .About-me{
+    background-color:black;
+    height: 100vh;
+ }
+ 
+ .abinfo{
+    color: rgb(209, 201, 201);
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+justify-content: space-between; }
+ .image{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+ }
+ .text{
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-right: 70px;
+  
+ }
+ .abpic{
+    padding-left: 100px;
  }
